@@ -3,7 +3,7 @@ stages:
  - test
  
 variables:
- test: "CoreWebAPI.tests"
+ test: "C:\\Dev\\examples\\WebAPI-NETCORE3\\CoreWebAPI.tests"
  
 before_script:
  - "cd C:\\Dev\\examples\\WebAPI-NETCORE3\\CoreWebAPI"
