@@ -6,7 +6,7 @@ variables:
  test: "CoreWebAPI.tests"
  
 before_script:
- - "cd C:\Dev\examples\WebAPI-NETCORE3\CoreWebAPI"
+ - "cd C:\\Dev\\examples\\WebAPI-NETCORE3\\CoreWebAPI"
  - "dotnet restore"
 build:
  stage: build
