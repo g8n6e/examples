@@ -18,7 +18,7 @@ namespace CoreWebAPI.Controllers
         public IEnumerable<Models.ExternalAccount> Get()
         {
             string sqlExternalAccounts = "SELECT id, ReferenceApplication, ReferenceID FROM dbo.ExternalAccounts;";
-            using (var connection = new SqlConnection("Data Source=D224Q72;Initial Catalog=ExternalAccounts;Integrated Security=true;"))
+            using (var connection = new SqlConnection("Data Source=localhost;Initial Catalog=ExternalAccounts;Integrated Security=true;"))
             {
                 var externalAccounts = connection.Query<Models.ExternalAccount>(sqlExternalAccounts).ToList();
 
@@ -32,7 +32,7 @@ namespace CoreWebAPI.Controllers
         public Models.ExternalAccount Get(int id)
         {
             string sqlExternalAccounts = "SELECT id, ReferenceApplication, ReferenceID FROM dbo.ExternalAccounts WHERE id = " + id + ";";
-            using (var connection = new SqlConnection("Data Source=D224Q72;Initial Catalog=ExternalAccounts;Integrated Security=true;"))
+            using (var connection = new SqlConnection("Data Source=localhost;Initial Catalog=ExternalAccounts;Integrated Security=true;"))
             {
                 var externalAccount = connection.Query<Models.ExternalAccount>(sqlExternalAccounts).FirstOrDefault();
 
