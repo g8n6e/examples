@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BokServiceAutoTest", "BokServiceAutoTest\BokServiceAutoTest.csproj", "{2A5E26EE-C58E-465E-AFBA-2AF29E737A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestAutoTestCase", "XUnitTestAutoTestCase\XUnitTestAutoTestCase.csproj", "{A87E1ECB-F725-40FC-A596-1318697356CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A5E26EE-C58E-465E-AFBA-2AF29E737A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5E26EE-C58E-465E-AFBA-2AF29E737A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5E26EE-C58E-465E-AFBA-2AF29E737A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5E26EE-C58E-465E-AFBA-2AF29E737A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87E1ECB-F725-40FC-A596-1318697356CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87E1ECB-F725-40FC-A596-1318697356CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87E1ECB-F725-40FC-A596-1318697356CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87E1ECB-F725-40FC-A596-1318697356CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FD22EF7-930A-429B-BCB1-99FE06B9D02A}
+	EndGlobalSection
+EndGlobal

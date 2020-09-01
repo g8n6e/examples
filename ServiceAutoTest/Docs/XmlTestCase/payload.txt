@@ -1,0 +1,5 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sal="http://test.url.com/endpoint:cc_WSD">
+   <soapenv:Header/>
+   <soapenv:Body>
+   </soapenv:Body>
+</soapenv:Envelope>

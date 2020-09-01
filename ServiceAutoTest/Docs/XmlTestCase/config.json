@@ -1,0 +1,9 @@
+{
+  "EndPoint1": "http://test.url.com/endpoint1",
+  "EndPoint2": "http://test.url.com/endpoint2",
+  "Headers": {
+    "Authorization": "Basic abc123",
+  },
+  "CallType": "SOAP",
+  "SoapAction": "SOAP_ACTION_ENDPOINT"
+}
