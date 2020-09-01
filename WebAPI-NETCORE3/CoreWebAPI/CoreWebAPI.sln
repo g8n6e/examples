@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPI", "CoreWebAPI.csproj", "{525ADEE5-CD09-4E92-AB09-7890C8806864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebAPI", "CoreWebAPI.csproj", "{525ADEE5-CD09-4E92-AB09-7890C8806864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPI2", "..\CoreWebAPI2\CoreWebAPI2.csproj", "{363CC942-40E5-4B7C-92C3-AB7176F436B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebAPI2", "..\CoreWebAPI2\CoreWebAPI2.csproj", "{363CC942-40E5-4B7C-92C3-AB7176F436B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPI.tests", "..\CoreWebAPI.tests\CoreWebAPI.tests.csproj", "{A02571B3-3095-4E8B-AD30-2DF781695E5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{363CC942-40E5-4B7C-92C3-AB7176F436B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{363CC942-40E5-4B7C-92C3-AB7176F436B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{363CC942-40E5-4B7C-92C3-AB7176F436B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02571B3-3095-4E8B-AD30-2DF781695E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02571B3-3095-4E8B-AD30-2DF781695E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02571B3-3095-4E8B-AD30-2DF781695E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02571B3-3095-4E8B-AD30-2DF781695E5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

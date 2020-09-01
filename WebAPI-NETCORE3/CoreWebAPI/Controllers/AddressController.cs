@@ -18,7 +18,7 @@ namespace CoreWebAPI.Controllers
         public IEnumerable<Models.Address> Get()
         {
             string sqlAddressKeywords = "SELECT * FROM Verify.AddressKeywords;";
-            using (var connection = new SqlConnection("Data Source=D224Q72;Initial Catalog=ExternalAccounts;Integrated Security=true;"))
+            using (var connection = new SqlConnection("Data Source=localhost;Initial Catalog=ExternalAccounts;Integrated Security=true;"))
             {
                 var addressKeywords = connection.Query<Models.Address>(sqlAddressKeywords).ToList();
 
@@ -32,7 +32,7 @@ namespace CoreWebAPI.Controllers
         public Models.Address Get(int id)
         {
             string sqlAddressKeyword = "SELECT * FROM Verify.AddressKeywords WHERE id = " + id + ";";
-            using (var connection = new SqlConnection("Data Source=D224Q72;Initial Catalog=ExternalAccounts;Integrated Security=true;"))
+            using (var connection = new SqlConnection("Data Source=localhost;Initial Catalog=ExternalAccounts;Integrated Security=true;"))
             {
                 var addressKeyword = connection.Query<Models.Address>(sqlAddressKeyword).FirstOrDefault();
 
